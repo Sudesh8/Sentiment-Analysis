@@ -27,7 +27,7 @@ label_map = {
 reverse_label_map = {v: k for k, v in label_map.items()}
 
 
-# Emotion label to response mapping (adjusted based on your label map)
+# Emotion label to response mapping 
 emotion_responses = {
     0: "I'm here for you. Want to talk about it?",  # Anxiety
     1: "Take a deep breath. What's on your mind?",  # Normal
